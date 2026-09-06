@@ -61,11 +61,15 @@ function Hero() {
           </p>
 
           {/* Headline */}
-          <div className="overflow-hidden">
+          <div className="flex flex-col">
             {words.map((word, i) => (
               <div key={i} className="overflow-hidden">
                 <h1
-                  className="font-['Fraunces'] text-5xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.9] tracking-tighter transition-all duration-1000"
+                  className={`font-['Fraunces'] text-5xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.88] transition-all duration-1000 ${
+                    i === 0
+                      ? "tracking-tight -ml-[0.035em] sm:-ml-[0.04em]"
+                      : "tracking-tighter"
+                  }`}
                   style={{
                     color: i === 0 || i === 3 ? "#b87333" : "#f0e8d6",
                     opacity: loaded ? 1 : 0,
