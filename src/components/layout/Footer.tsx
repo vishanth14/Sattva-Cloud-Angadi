@@ -79,7 +79,7 @@ export default function Footer() {
                 { label: "Contact", href: "/account" },
               ].map((l) => (
                 <Link
-                  key={l.href}
+                  key={l.label}
                   to={l.href}
                   className="text-sm text-[#c8b89a] hover:text-[#f0e8d6] transition-colors"
                 >
