@@ -33,6 +33,34 @@ Sattva:
 **DISCOVER → UNDERSTAND → EXPERIENCE → OWN → USE → CARE → RECONNECT**
 
 ---
+## Technologies Used
+
+<p align="center">
+  <img src="https://cdn.simpleicons.org/react" width="50" alt="React"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/vite" width="50" alt="Vite"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript" width="50" alt="TypeScript"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/figma" width="50" alt="Figma"/>
+</p>
+
+<p align="center">
+  <strong>React</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <strong>Vite</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <strong>TypeScript</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <strong>Figma</strong>
+</p>
+
+- **React** — Interactive web application and reusable components
+- **Vite** — Development server and build tooling
+- **TypeScript** — Type-safe application development
+- **Figma** — UI/UX design, wireframing, and prototyping
+
+---
 
 ## 💡 Our Core Idea
 
