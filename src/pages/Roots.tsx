@@ -90,7 +90,7 @@ export default function Roots() {
         type: "companion",
         text: entry
           ? entry.response
-          : "That's a thoughtful question. For the most specific guidance, I recommend consulting the care guide for your particular material — available on each product page and in the materials section.\n\nYou might also explore the material story pages, where each material's heritage, craft process, and traditional use is documented in detail.",
+          : "ROOTS holds knowledge of copper, brass, bronze, Kansa, iron, and terracotta — their care, heritage, and traditional use.\n\nI didn't find a specific answer for that question in the archive. Try asking about:\n• Cleaning or caring for a specific material (e.g. \"How do I clean brass?\")\n• Traditional use or Ayurvedic context (e.g. \"What does Ayurveda say about Kansa?\")\n• Preparation and seasoning (e.g. \"How do I season iron?\" or \"How do I prepare terracotta?\")\n• Heritage and craft (e.g. \"Where is Kansa made?\")\n\nOr explore the Materials and Rituals sections for the full heritage stories of each material.",
         tags: entry?.tags || [],
       };
       setMessages((prev) => [...prev, response]);
