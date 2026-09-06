@@ -92,7 +92,7 @@ This creates a gap between **commerce and cultural understanding**.
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/figma" width="60" alt="Figma"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/netlify" width="60" alt="Netlify"/>
+  <img src="https://cdn.simpleicons.org/vercel" width="60" alt="Vercel"/>
 </p>
 
 <p align="center">
@@ -104,7 +104,7 @@ This creates a gap between **commerce and cultural understanding**.
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <strong>Figma</strong>
   &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>Netlify</strong>
+  <strong>Vercel</strong>
 </p>
 
 | Technology | Purpose |
@@ -113,7 +113,7 @@ This creates a gap between **commerce and cultural understanding**.
 | **Vite** | Fast development environment and production build tooling |
 | **TypeScript** | Type-safe and maintainable application development |
 | **Figma** | UI/UX design, wireframing, visual design, and prototyping |
-| **Netlify** | Hosting and continuous deployment of the live application |
+| **Vercel** | Hosting and continuous deployment of the live application |
 
 ---
 # Our Solution
