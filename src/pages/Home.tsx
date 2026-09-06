@@ -60,21 +60,56 @@ function Hero() {
             SATTVA CLOUD ANGADI — HERITAGE COMMERCE
           </p>
 
-          {/* Headline */}
+          {/* Headline — Two Typographic Systems */}
           <div className="flex flex-col">
-            {words.map((word, i) => (
-              <div key={i} className="overflow-hidden">
+
+            {/* SYSTEM A — Editorial Prelude: WHERE */}
+            {/* WHERE is a smaller lead-in, not equal to the headline. */}
+            {/* Scale: ~58% of headline. Tracking: wider to feel airy, not monumental. */}
+            {/* Left offset: the 'W' glyph has wide angular mass. */}
+            {/* Optically we shift WHERE slightly right — so W's midpoint aligns */}
+            {/* with where H begins in HERITAGE, creating a visual cascade. */}
+            {/* Vertical: mb is tight (grouped with HERITAGE as one thought). */}
+            <div className="overflow-hidden mb-1 sm:mb-2">
+              <h1
+                className="font-['Fraunces'] font-light italic
+                           text-2xl sm:text-4xl md:text-5xl lg:text-6xl
+                           leading-none tracking-wide
+                           transition-all duration-1000"
+                style={{
+                  color: "#b87333",
+                  opacity: loaded ? 1 : 0,
+                  transform: loaded ? "translateY(0)" : "translateY(100%)",
+                  transitionDelay: "0ms",
+                  /* Optical offset: aligns the visual mass of 'W' with 'H' in HERITAGE.
+                     At lg text-6xl (3.75rem), 'W' left-bearing ≈ 0.05em.
+                     We add ~0.1em so W's visual centre enters just before H. */
+                  marginLeft: "0.08em",
+                  fontKerning: "normal",
+                  textRendering: "optimizeLegibility",
+                }}
+              >
+                where
+              </h1>
+            </div>
+
+            {/* SYSTEM B — Monumental Headline: HERITAGE / BECOMES / EVERYDAY. */}
+            {/* These three lines share identical scale, tracking, and left edge. */}
+            {/* They form a single stacked visual block. */}
+            {["HERITAGE", "BECOMES", "EVERYDAY."].map((word, i) => (
+              <div key={word} className="overflow-hidden">
                 <h1
-                  className={`font-['Fraunces'] text-5xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.88] transition-all duration-1000 ${
-                    i === 0
-                      ? "tracking-tight -ml-[0.035em] sm:-ml-[0.04em]"
-                      : "tracking-tighter"
-                  }`}
+                  className="font-['Fraunces'] font-semibold
+                             text-5xl sm:text-7xl md:text-8xl lg:text-9xl
+                             leading-[0.87] tracking-tighter
+                             transition-all duration-1000"
                   style={{
-                    color: i === 0 || i === 3 ? "#b87333" : "#f0e8d6",
+                    color: i === 2 ? "#b87333" : "#f0e8d6",
                     opacity: loaded ? 1 : 0,
                     transform: loaded ? "translateY(0)" : "translateY(100%)",
-                    transitionDelay: `${i * 120}ms`,
+                    transitionDelay: `${(i + 1) * 130}ms`,
+                    fontKerning: "normal",
+                    textRendering: "optimizeLegibility",
                   }}
                 >
                   {word}
