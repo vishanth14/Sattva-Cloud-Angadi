@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://sattvacloud.netlify.app/">
+  <a href="https://sattva-cloud-angadi.vercel.app/">
     🌐 <strong>Live Demo — Sattva Cloud Angadi</strong>
   </a>
 </p>
@@ -43,7 +43,7 @@ Experience Sattva Cloud Angadi:
 **https://sattvacloud.netlify.app/**
 
 <p align="center">
-  <a href="https://sattvacloud.netlify.app/">
+  <a href="https://sattva-cloud-angadi.vercel.app/">
     <strong>🚀 Visit Sattva Cloud Angadi</strong>
   </a>
 </p>
