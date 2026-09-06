@@ -1,3 +1,5 @@
 import HeritageCursor from "./HeritageCursor";
 
-export default HeritageCursor;
+export default function CustomCursor({ hideTrail = false }: { hideTrail?: boolean }) {
+  return <HeritageCursor hideTrail={hideTrail} />;
+}

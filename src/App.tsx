@@ -4,7 +4,6 @@ import { router } from "./routes";
 import { AuthProvider } from "./context/AuthContext";
 import { CartProvider } from "./context/CartContext";
 import { WishlistProvider } from "./context/WishlistContext";
-import CustomCursor from "./components/common/CustomCursor";
 import LoadingScreen from "./components/common/LoadingScreen";
 import ParticleNetwork from "./components/effects/ParticleNetwork";
 import FluidCursorBlob from "./components/effects/FluidCursorBlob";
@@ -18,7 +17,6 @@ export default function App() {
         <WishlistProvider>
           <ParticleNetwork />
           <FluidCursorBlob />
-          <CustomCursor />
           {!loaded && <LoadingScreen onDone={() => setLoaded(true)} />}
           <div
             style={{

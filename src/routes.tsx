@@ -2,6 +2,7 @@ import { createBrowserRouter, Outlet, useLocation } from "react-router";
 import { useEffect } from "react";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
+import CustomCursor from "./components/common/CustomCursor";
 import Home from "./pages/Home";
 import Materials from "./pages/Materials";
 import MaterialDetail from "./pages/MaterialDetail";
@@ -27,6 +28,7 @@ function Root() {
 
   // Pages that need a full-height layout without footer
   const noFooter = ["/login", "/register", "/roots"].includes(location.pathname);
+  const isHome = location.pathname === "/";
 
   return (
     <div
@@ -47,6 +49,7 @@ function Root() {
         <Outlet />
       </main>
       {!noFooter && <Footer />}
+      <CustomCursor hideTrail={!isHome} />
     </div>
   );
 }

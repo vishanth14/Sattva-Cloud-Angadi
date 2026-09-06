@@ -14,7 +14,7 @@ interface TrailNode {
   lang: "sa" | "ta";
 }
 
-export default function HeritageCursor() {
+export default function HeritageCursor({ hideTrail = false }: { hideTrail?: boolean }) {
   // Only hover label & hover state need React (they affect JSX)
   const [hoverLabel, setHoverLabel] = useState("");
   const [isHovered, setIsHovered] = useState(false);
@@ -94,7 +94,7 @@ export default function HeritageCursor() {
 
       // 3. Heritage Trail Spawning (Optional enhancement - disabled on reducedMotion or failure)
       try {
-        if (!reducedMotion && trailRef.current) {
+        if (!reducedMotion && !hideTrail && trailRef.current) {
           const dx = x - lastSpawn.current.x;
           const dy = y - lastSpawn.current.y;
           if (Math.hypot(dx, dy) > 32) {
