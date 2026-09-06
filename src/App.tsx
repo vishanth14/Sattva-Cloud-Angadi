@@ -6,6 +6,8 @@ import { CartProvider } from "./context/CartContext";
 import { WishlistProvider } from "./context/WishlistContext";
 import CustomCursor from "./components/common/CustomCursor";
 import LoadingScreen from "./components/common/LoadingScreen";
+import ParticleNetwork from "./components/effects/ParticleNetwork";
+import FluidCursorBlob from "./components/effects/FluidCursorBlob";
 
 export default function App() {
   const [loaded, setLoaded] = useState(false);
@@ -14,6 +16,8 @@ export default function App() {
     <AuthProvider>
       <CartProvider>
         <WishlistProvider>
+          <ParticleNetwork />
+          <FluidCursorBlob />
           <CustomCursor />
           {!loaded && <LoadingScreen onDone={() => setLoaded(true)} />}
           <div

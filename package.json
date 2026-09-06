@@ -10,10 +10,12 @@
     "format": "oxfmt"
   },
   "dependencies": {
+    "@types/three": "^0.185.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^8.3.1",
-    "react-router-dom": "^7.18.3"
+    "react-router-dom": "^7.18.3",
+    "three": "^0.185.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",

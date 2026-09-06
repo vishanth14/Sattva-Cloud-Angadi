@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { materials } from "../data/materials";
+import WebGLImageReveal from "../components/effects/WebGLImageReveal";
+import InteractiveImageMask from "../components/effects/InteractiveImageMask";
 
 function useScrollReveal(threshold = 0.15) {
   const ref = useRef<HTMLDivElement>(null);
@@ -449,11 +451,84 @@ function FeaturedJourney() {
   );
 }
 
+function WebGLShowcase() {
+  const { ref, visible } = useScrollReveal(0.2);
+
+  return (
+    <section className="py-24 px-8 md:px-16 overflow-hidden" style={{ background: "#080604" }}>
+      <div ref={ref}>
+        <p className="text-[10px] tracking-[0.35em] text-[#7a6a58] mb-4">INTERACTIVE EXPERIENCE</p>
+        <h2
+          className="font-['Fraunces'] text-3xl md:text-5xl mb-12 transition-all duration-700"
+          style={{ color: "#f0e8d6", opacity: visible ? 1 : 0 }}
+        >
+          Hover to <span style={{ color: "#b87333" }}>reveal</span> the craft
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div
+            className="h-[500px] transition-all duration-1000"
+            style={{
+              opacity: visible ? 1 : 0,
+              transform: visible ? "none" : "translateY(40px)",
+            }}
+          >
+            <div className="h-full rounded-sm overflow-hidden">
+              <WebGLImageReveal
+                imageUrl="https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&h=1000&fit=crop"
+                className="h-full"
+              />
+            </div>
+            <p className="text-xs text-[#7a6a58] mt-3 tracking-wider">MOVE CURSOR OVER IMAGE</p>
+          </div>
+
+          <div className="space-y-4">
+            <div
+              className="h-[242px] transition-all duration-1000"
+              style={{
+                opacity: visible ? 1 : 0,
+                transitionDelay: "200ms",
+                transform: visible ? "none" : "translateY(40px)",
+              }}
+            >
+              <InteractiveImageMask
+                imageUrl="https://images.unsplash.com/photo-1606293926075-69a00dbfde81?w=600&h=400&fit=crop"
+                alt="Traditional craft"
+                className="h-full rounded-sm"
+              />
+            </div>
+
+            <div
+              className="h-[242px] transition-all duration-1000"
+              style={{
+                opacity: visible ? 1 : 0,
+                transitionDelay: "300ms",
+                transform: visible ? "none" : "translateY(40px)",
+              }}
+            >
+              <InteractiveImageMask
+                imageUrl="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop"
+                alt="Artisan at work"
+                className="h-full rounded-sm"
+              />
+            </div>
+
+            <p className="text-[10px] text-[#7a6a58] mt-3 tracking-wider px-1">
+              MOVE CURSOR OVER IMAGES TO REVEAL
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   return (
     <div>
       <Hero />
       <Philosophy />
+      <WebGLShowcase />
       <MaterialShowcase />
       <FeaturedJourney />
     </div>
