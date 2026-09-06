@@ -81,6 +81,41 @@ This creates a gap between **commerce and cultural understanding**.
 
 ---
 
+# Technologies Used
+
+<p align="center">
+  <img src="https://cdn.simpleicons.org/react" width="60" alt="React"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/vite" width="60" alt="Vite"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript" width="60" alt="TypeScript"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/figma" width="60" alt="Figma"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/netlify" width="60" alt="Netlify"/>
+</p>
+
+<p align="center">
+  <strong>React</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <strong>Vite</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <strong>TypeScript</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <strong>Figma</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <strong>Netlify</strong>
+</p>
+
+| Technology | Purpose |
+|---|---|
+| **React** | Building the interactive web application and reusable UI components |
+| **Vite** | Fast development environment and production build tooling |
+| **TypeScript** | Type-safe and maintainable application development |
+| **Figma** | UI/UX design, wireframing, visual design, and prototyping |
+| **Netlify** | Hosting and continuous deployment of the live application |
+
+---
 # Our Solution
 
 Sattva Cloud Angadi transforms the traditional marketplace experience into a **digital heritage experience**.
