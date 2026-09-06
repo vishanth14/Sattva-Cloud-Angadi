@@ -1,21 +1,32 @@
-# Sattva Cloud Angadi
+#  Sattva Cloud Angadi
 
 ### Where heritage becomes everyday.
 
-**Team:** Cookie Monsters  
-**Problem Statement:** ROOTS — Reviving Traditional Indian Wellness
+<p align="center">
+  <strong>Team Cookie Monsters</strong>
+</p>
+
+<p align="center">
+  <a href="https://sattvacloud.netlify.app/">
+    🌐 <strong>Live Demo — Sattva Cloud Angadi</strong>
+  </a>
+</p>
 
 ---
 
 ## About the Project
 
-**Sattva Cloud Angadi** is a premium digital marketplace designed to reconnect people with India's traditional wellness products, materials, craftsmanship, and everyday practices.
+**Sattva Cloud Angadi** is a premium digital marketplace designed to reconnect people with India's traditional wellness products, materials, craftsmanship, artisans, and everyday practices.
 
-Traditional Indian products are often presented online simply as objects for sale. Their **material, making process, artisan heritage, cultural context, traditional usage, and care knowledge** are frequently separated from the product itself.
+Traditional Indian products are often presented online simply as objects for sale. Their **material history, making process, artisan heritage, cultural context, traditional usage, and care knowledge** are frequently separated from the product itself.
 
 Sattva Cloud Angadi takes a different approach.
 
-Instead of simply asking users to **browse → buy → forget**, the platform creates a journey:
+Instead of simply:
+
+**BROWSE → BUY → FORGET**
+
+the platform creates a deeper journey:
 
 **DISCOVER → LEARN → UNDERSTAND → PURCHASE → USE → CARE → RECONNECT**
 
@@ -25,38 +36,23 @@ The platform brings together heritage materials, artisan stories, traditional pr
 
 ---
 
-## Technologies Used
+## 🌐 Live Website
+
+Experience Sattva Cloud Angadi:
+
+**https://sattvacloud.netlify.app/**
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/react" width="55" alt="React"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/vite" width="55" alt="Vite"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/typescript" width="55" alt="TypeScript"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/figma" width="55" alt="Figma"/>
+  <a href="https://sattvacloud.netlify.app/">
+    <strong>🚀 Visit Sattva Cloud Angadi</strong>
+  </a>
 </p>
-
-<p align="center">
-  <strong>React</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>Vite</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>TypeScript</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>Figma</strong>
-</p>
-
-| Technology | Role |
-|---|---|
-| **React** | Building the interactive web application and reusable UI components |
-| **Vite** | Fast development environment and production build tooling |
-| **TypeScript** | Type-safe and maintainable application development |
-| **Figma** | UI/UX design, wireframing, visual design, and prototyping |
 
 ---
 
-## The Problem
+# Problem Statement
+
+**ROOTS — Reviving Traditional Indian Wellness**
 
 India has a vast heritage of traditional materials, crafts, artisans, and everyday wellness practices.
 
@@ -69,6 +65,7 @@ Users may see:
 - A bronze object
 - A Kansa utensil
 - A terracotta product
+- A traditional diya
 
 But they may not discover:
 
@@ -84,7 +81,7 @@ This creates a gap between **commerce and cultural understanding**.
 
 ---
 
-## Our Solution
+# Our Solution
 
 Sattva Cloud Angadi transforms the traditional marketplace experience into a **digital heritage experience**.
 
@@ -149,29 +146,34 @@ The goal is to visually communicate that a traditional object is the result of *
 
 ---
 
-## 4. Artisan Stories
+# Artisan Stories
 
 Sattva gives artisans a dedicated place in the digital experience.
 
 Featured artisan communities include:
 
 ### Kansa Craftsmen of Kantapada
+
 **Location:** Kantapada, Odisha  
 **Craft:** Kansa / Bell Metal Forging
 
 ### Sthapathi Bronze Craftsmen of Swamimalai
+
 **Location:** Swamimalai, Tamil Nadu  
 **Craft:** Lost-Wax Bronze Casting
 
 ### Potter Community of Molela
+
 **Location:** Molela, Rajasthan  
 **Craft:** Terracotta Vessel Making
 
 ### Brass Artisans of Moradabad
+
 **Location:** Moradabad, Uttar Pradesh  
 **Craft:** Brass Casting and Finishing
 
 ### Temple Craft Artisans of Thrissur
+
 **Location:** Thrissur, Kerala  
 **Craft:** Copper and Brass Temple Craft
 
@@ -187,7 +189,7 @@ to:
 
 # Practices & Rituals
 
-Sattva Cloud Angadi also explores the connection between traditional objects and everyday Indian practices.
+Sattva Cloud Angadi explores the connection between traditional objects and everyday Indian practices.
 
 Examples include:
 
@@ -252,13 +254,16 @@ Users can ask questions such as:
 
 ROOTS can present information through distinct perspectives:
 
-**Traditional Knowledge**  
+### Traditional Knowledge
+
 Traditional uses, practices, and cultural context.
 
-**Ayurvedic Context**  
+### Ayurvedic Context
+
 Relevant traditional Ayurvedic perspectives where applicable.
 
-**Scientific Context**  
+### Scientific Context
+
 Modern scientific understanding where applicable.
 
 This separation helps prevent traditional beliefs and modern scientific claims from being presented as if they are the same type of evidence.
@@ -279,7 +284,7 @@ Sattva follows:
 
 This creates a deeper relationship between the user and the object.
 
-### Our key innovations
+### Our Key Innovations
 
 **01 — Material-First Discovery**  
 Explore heritage through materials before products.
