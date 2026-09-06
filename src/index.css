@@ -65,15 +65,15 @@ body {
   cursor: none;
 }
 
-/* Hide default cursor when custom cursor active */
-@media (pointer: fine) {
+/* Hide default cursor when any fine pointer is available */
+@media (any-pointer: fine) {
   *, *::before, *::after {
     cursor: none !important;
   }
 }
 
-/* Touch devices: show default cursor */
-@media (pointer: coarse) {
+/* Touch-only devices with no fine pointer capability: show default cursor */
+@media not (any-pointer: fine) {
   body { cursor: auto; }
   *, *::before, *::after { cursor: auto !important; }
 }
