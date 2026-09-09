@@ -1,4 +1,4 @@
-#  Sattva Cloud Angadi
+# Sattva Cloud Angadi
 
 ### Where heritage becomes everyday.
 
@@ -8,368 +8,296 @@
 
 <p align="center">
   <a href="https://sattva-cloud-angadi.vercel.app/">
-    🌐 <strong>Live Demo — Sattva Cloud Angadi</strong>
+    🌐 <strong>Live Demo</strong>
   </a>
 </p>
 
 ---
 
-## About the Project
+## ✨ About
 
-**Sattva Cloud Angadi** is a premium digital marketplace designed to reconnect people with India's traditional wellness products, materials, craftsmanship, artisans, and everyday practices.
+**Sattva Cloud Angadi** is a digital marketplace and heritage experience designed to reconnect users with India's traditional **materials, crafts, artisans, products, and everyday practices**.
 
-Traditional Indian products are often presented online simply as objects for sale. Their **material history, making process, artisan heritage, cultural context, traditional usage, and care knowledge** are frequently separated from the product itself.
+Rather than presenting traditional products as isolated objects, Sattva connects each product with the story behind it:
 
-Sattva Cloud Angadi takes a different approach.
+> **Material → Making → Artisan → Practice → Knowledge → Product**
 
-Instead of simply:
-
-**BROWSE → BUY → FORGET**
-
-the platform creates a deeper journey:
-
-**DISCOVER → LEARN → UNDERSTAND → PURCHASE → USE → CARE → RECONNECT**
-
-The platform brings together heritage materials, artisan stories, traditional practices, product experiences, and contextual knowledge into one digital ecosystem.
-
-> **“Most marketplaces show you the object. Sattva shows you the journey that gave the object meaning.”**
+The goal is to bring **commerce and cultural understanding** together in one digital experience.
 
 ---
 
-## 🌐 Live Website
+## 🎯 Problem
 
-Experience Sattva Cloud Angadi:
+Traditional Indian products often reach modern marketplaces without the context that gives them meaning.
 
-**https://sattvacloud.netlify.app/**
+Users may see a copper vessel, brass lamp, Kansa utensil, or terracotta product—but may not discover:
 
-<p align="center">
-  <a href="https://sattva-cloud-angadi.vercel.app/">
-    <strong>🚀 Visit Sattva Cloud Angadi</strong>
-  </a>
-</p>
+* 🧱 Where the material comes from
+* 🔨 How the product is made
+* 👨‍🎨 Who makes it
+* 🪔 How it has traditionally been used
+* 📖 Why the material or craft matters
+* 🧼 How the product should be cared for
 
----
-
-# Problem Statement
-
-**ROOTS — Reviving Traditional Indian Wellness**
-
-India has a vast heritage of traditional materials, crafts, artisans, and everyday wellness practices.
-
-However, when these products move into modern digital marketplaces, much of their surrounding context can disappear.
-
-Users may see:
-
-- A copper vessel
-- A brass lamp
-- A bronze object
-- A Kansa utensil
-- A terracotta product
-- A traditional diya
-
-But they may not discover:
-
-- Where the material comes from
-- How the object is made
-- Who makes it
-- Why the material matters
-- How it was traditionally used
-- How it should be cared for
-- How it connects to everyday Indian practices
-
-This creates a gap between **commerce and cultural understanding**.
+This creates a gap between **purchasing a traditional object and understanding its heritage**.
 
 ---
 
-# Technologies Used
+## 💡 Our Solution
 
-<p align="center">
-  <img src="https://cdn.simpleicons.org/react" width="60" alt="React"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/vite" width="60" alt="Vite"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/typescript" width="60" alt="TypeScript"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/figma" width="60" alt="Figma"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/vercel" width="60" alt="Vercel"/>
-</p>
+Sattva Cloud Angadi transforms the conventional:
 
-<p align="center">
-  <strong>React</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>Vite</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>TypeScript</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>Figma</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <strong>Vercel</strong>
-</p>
+**BROWSE → BUY**
 
-| Technology | Purpose |
-|---|---|
-| **React** | Building the interactive web application and reusable UI components |
-| **Vite** | Fast development environment and production build tooling |
-| **TypeScript** | Type-safe and maintainable application development |
-| **Figma** | UI/UX design, wireframing, visual design, and prototyping |
-| **Vercel** | Hosting and continuous deployment of the live application |
+experience into:
 
----
-# Our Solution
+**DISCOVER → LEARN → EXPERIENCE → CONNECT → PURCHASE → CARE**
 
-Sattva Cloud Angadi transforms the traditional marketplace experience into a **digital heritage experience**.
-
-The platform connects:
-
-**MATERIAL → MAKING → ARTISAN → PRACTICE → KNOWLEDGE → PRODUCT**
-
-A user can begin with a material, understand its history, explore how it is crafted, discover the people behind it, learn about related practices, and finally explore products connected to that heritage.
-
-The product is therefore not presented as an isolated object.
-
-It becomes part of a larger story.
+Users can explore traditional materials, discover their associated crafts and artisans, understand traditional practices, and then explore products connected to that heritage.
 
 ---
 
-# What Makes Sattva Cloud Angadi Different?
+# 🌾 Key Features
 
-## 1. Material-First Discovery
+## 1. 🧱 Material-First Discovery
 
-Instead of beginning with conventional product categories, users can explore traditional Indian materials.
+Instead of beginning with conventional product categories, users can explore traditional Indian materials such as:
 
-The platform currently highlights:
+* Copper
+* Brass
+* Bronze
+* Kansa / Bell Metal
+* Iron
+* Terracotta
 
-- **Copper**
-- **Brass**
-- **Bronze**
-- **Kansa / Bell Metal**
-- **Iron**
-- **Terracotta**
-
-Each material has its own visual identity and contextual story.
-
-Users can explore the material before deciding what they want to purchase.
+Each material is presented with its own visual identity and contextual information.
 
 ---
 
-## 2. From Object to Origin
+## 2. 🔨 From Object to Origin
 
-A product page is not treated as only a sales page.
-
-The experience connects the product back to:
+Products are connected to the story behind them:
 
 **Material → Craft → Artisan → Tradition → Everyday Use**
 
-This allows users to understand where the object came from and why it exists.
+This allows users to understand not just **what** they are buying, but **where it came from and how it was made**.
 
 ---
 
-## 3. The Making of Kansa
+## 3. ⚒️ The Making of Kansa
 
-One of the highlighted craft experiences focuses on the making and evolution of **Kansa / Bell Metal** objects.
+The platform highlights the traditional making process of **Kansa / Bell Metal** objects.
 
-The journey introduces stages such as:
+The experience introduces key stages including:
 
-1. **Alloying**
-2. **Casting**
-3. **Forging**
-4. **Turning**
-5. **Finishing**
+1. Alloying
+2. Casting
+3. Forging
+4. Turning
+5. Finishing
 
-The goal is to visually communicate that a traditional object is the result of **material knowledge, skilled hands, time, and technique**.
+This communicates the role of **material knowledge, craftsmanship, time, and technique** in creating traditional objects.
 
 ---
 
-# Artisan Stories
+## 4. 👨‍🎨 Artisan Stories
 
-Sattva gives artisans a dedicated place in the digital experience.
+Artisans are presented as an important part of the product experience rather than being hidden behind the marketplace.
 
-Featured artisan communities include:
+Featured craft communities include:
 
-### Kansa Craftsmen of Kantapada
+| Artisan Community            | Location               | Craft                       |
+| ---------------------------- | ---------------------- | --------------------------- |
+| Kansa Craftsmen of Kantapada | Odisha                 | Kansa / Bell Metal Forging  |
+| Sthapathi Bronze Craftsmen   | Swamimalai, Tamil Nadu | Lost-Wax Bronze Casting     |
+| Potter Community of Molela   | Rajasthan              | Terracotta Vessel Making    |
+| Brass Artisans of Moradabad  | Uttar Pradesh          | Brass Casting & Finishing   |
+| Temple Craft Artisans        | Thrissur, Kerala       | Copper & Brass Temple Craft |
 
-**Location:** Kantapada, Odisha  
-**Craft:** Kansa / Bell Metal Forging
+The experience changes the question from:
 
-### Sthapathi Bronze Craftsmen of Swamimalai
-
-**Location:** Swamimalai, Tamil Nadu  
-**Craft:** Lost-Wax Bronze Casting
-
-### Potter Community of Molela
-
-**Location:** Molela, Rajasthan  
-**Craft:** Terracotta Vessel Making
-
-### Brass Artisans of Moradabad
-
-**Location:** Moradabad, Uttar Pradesh  
-**Craft:** Brass Casting and Finishing
-
-### Temple Craft Artisans of Thrissur
-
-**Location:** Thrissur, Kerala  
-**Craft:** Copper and Brass Temple Craft
-
-The artisan experience shifts attention from:
-
-**“Who sells this?”**
+> **“Who sells this?”**
 
 to:
 
-**“Who made this?”**
+> **“Who made this?”**
 
 ---
 
-# Practices & Rituals
+## 5. 🪔 Practices & Rituals
 
-Sattva Cloud Angadi explores the connection between traditional objects and everyday Indian practices.
+Sattva connects traditional objects with the practices in which they have historically been used.
 
 Examples include:
 
-- **Morning Copper Water**
-- **The Evening Diya**
-- **Kansa Dining**
+* 💧 Morning Copper Water
+* 🪔 The Evening Diya
+* 🍽️ Kansa Dining
 
-The purpose is not to present tradition as something locked in the past.
-
-Instead, the platform explores how traditional practices can be understood and experienced in a contemporary context.
+The objective is to present heritage as something that can still be **understood and experienced in a contemporary context**.
 
 ---
 
-## The Evening Diya
+## 6. 🤖 ROOTS — Knowledge Companion
 
-One featured practice is **The Evening Diya**.
+**ROOTS** is a conversational knowledge companion integrated into the Sattva experience.
 
-The experience introduces the traditional context surrounding the lighting of a diya at the transition from day to evening.
+Users can ask questions about:
 
-### The Practice
+* Traditional Indian materials
+* Craft techniques
+* Product care
+* Cultural practices
+* Origins of crafts
+* Historical context
+* Traditional uses
 
-**01 — Prepare**
+ROOTS organizes information into different perspectives where applicable:
 
-Clean the diya with a dry cloth and place it in its usual location.
-
-**02 — Add Oil or Ghee**
-
-Add enough ghee or sesame oil for the intended duration of the practice.
-
-**03 — Prepare the Wick**
-
-Position the cotton wick so that one end sits in the oil and the other is ready to light.
-
-**04 — Light**
-
-Light the wick and take a moment to observe the flame before beginning prayer or quiet reflection.
-
-**05 — Complete**
-
-Allow the flame to burn naturally or carefully extinguish it after the practice.
-
-The experience demonstrates how a physical product can be connected to **context, practice, memory, and everyday life**.
-
----
-
-# ROOTS Knowledge Companion
-
-## A Context-Aware Heritage Companion
-
-Sattva includes **ROOTS**, a conversational knowledge companion designed to help users understand traditional Indian materials, products, practices, and related knowledge.
-
-Instead of functioning as a generic chatbot, ROOTS is positioned as part of the heritage experience.
-
-Users can ask questions such as:
-
-- Why is copper traditionally used for certain vessels?
-- How is Kansa made?
-- What is the difference between bronze and brass?
-- How should a traditional metal vessel be cared for?
-- What is the traditional context of the diya?
-- Where does this craft originate?
-
-ROOTS can present information through distinct perspectives:
-
-### Traditional Knowledge
+### 📜 Traditional Knowledge
 
 Traditional uses, practices, and cultural context.
 
-### Ayurvedic Context
+### 🌿 Ayurvedic Context
 
-Relevant traditional Ayurvedic perspectives where applicable.
+Relevant traditional Ayurvedic perspectives.
 
-### Scientific Context
+### 🔬 Scientific Context
 
 Modern scientific understanding where applicable.
 
-This separation helps prevent traditional beliefs and modern scientific claims from being presented as if they are the same type of evidence.
+This separation helps distinguish **traditional knowledge from modern scientific evidence** rather than presenting them as equivalent claims.
 
 ---
 
-# Our Core Innovation
+# 🚀 What Makes Sattva Different?
 
-## NOT JUST A MARKETPLACE. A DIGITAL HERITAGE EXPERIENCE.
+| Conventional Marketplace | Sattva Cloud Angadi             |
+| ------------------------ | ------------------------------- |
+| Product-first            | Material-first                  |
+| Product → Price → Buy    | Material → Story → Product      |
+| Seller-focused           | Artisan-focused                 |
+| Transaction-oriented     | Experience-oriented             |
+| Limited product context  | Heritage & cultural context     |
+| Shopping experience      | Discovery + learning + commerce |
 
-Most marketplaces follow:
+### Our Core Innovation
 
-**PRODUCT → PRICE → BUY**
-
-Sattva follows:
-
-**MATERIAL → MAKING → ARTISAN → PRACTICE → KNOWLEDGE → PRODUCT**
-
-This creates a deeper relationship between the user and the object.
-
-### Our Key Innovations
-
-**01 — Material-First Discovery**  
-Explore heritage through materials before products.
-
-**02 — From Object to Origin**  
-Understand how products connect to their material and craft origins.
-
-**03 — The Maker Has a Place**  
-Artisans are presented as part of the product story rather than hidden behind the marketplace.
-
-**04 — Heritage in Practice**  
-Traditional products are connected with everyday practices and rituals.
-
-**05 — ROOTS Knowledge Companion**  
-A conversational layer helps users understand heritage context.
-
-**06 — Commerce With Context**  
-The platform combines product discovery with learning and cultural context.
+> **Sattva is not just a marketplace. It is a digital heritage experience.**
 
 ---
 
-# The Complete User Journey
+# 🔄 User Journey
 
 ```text
-DISCOVER
-   ↓
-Explore materials
-   ↓
-UNDERSTAND
-   ↓
-Learn the history and significance
-   ↓
-EXPERIENCE
-   ↓
-Explore making processes and artisan stories
-   ↓
-CONNECT
-   ↓
-Discover practices and contextual knowledge
-   ↓
-OWN
-   ↓
-Explore and purchase products
-   ↓
-USE
-   ↓
-Understand traditional relevance
-   ↓
-CARE
-   ↓
-Follow product care guidance
-   ↓
-CONTINUE THE STORY
+        DISCOVER
+            ↓
+     Explore Materials
+            ↓
+       UNDERSTAND
+            ↓
+   Learn Heritage & Context
+            ↓
+       EXPERIENCE
+            ↓
+ Explore Crafts & Making Processes
+            ↓
+         CONNECT
+            ↓
+    Discover Artisan Stories
+            ↓
+          OWN
+            ↓
+     Explore Products
+            ↓
+           USE
+            ↓
+ Understand Traditional Context
+            ↓
+          CARE
+            ↓
+     Follow Care Guidance
+            ↓
+    CONTINUE THE STORY
+```
+
+---
+
+# 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://cdn.simpleicons.org/react" width="55" alt="React"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/vite" width="55" alt="Vite"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript" width="55" alt="TypeScript"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/figma" width="55" alt="Figma"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/vercel" width="55" alt="Vercel"/>
+</p>
+
+| Technology        | Purpose                                       |
+| ----------------- | --------------------------------------------- |
+| ⚛️ **React**      | Interactive UI and reusable components        |
+| ⚡ **Vite**        | Development environment and production builds |
+| 🔷 **TypeScript** | Type-safe application development             |
+| 🎨 **Figma**      | UI/UX design and prototyping                  |
+| ▲ **Vercel**      | Deployment and hosting                        |
+
+---
+
+# 📂 Project Focus
+
+The application brings together several connected experiences:
+
+```text
+Sattva Cloud Angadi
+│
+├── 🌾 Material Discovery
+├── 🛍️ Product Experience
+├── ⚒️ Craft & Making
+├── 👨‍🎨 Artisan Stories
+├── 🪔 Practices & Rituals
+├── 🤖 ROOTS Knowledge Companion
+└── 🧼 Product Care
+```
+
+---
+
+# 🌐 Live Demo
+
+Experience Sattva Cloud Angadi:
+
+**https://sattva-cloud-angadi.vercel.app/**
+
+<p align="center">
+  <a href="https://sattva-cloud-angadi.vercel.app/">
+    🚀 <strong>Visit Sattva Cloud Angadi</strong>
+  </a>
+</p>
+
+---
+
+# 👥 Team
+
+### 🍪 Team Cookie Monsters
+
+**Sattva Cloud Angadi** was developed by **Team Cookie Monsters**.
+
+---
+
+## 🌿 Our Vision
+
+Traditional products should not lose their stories when they enter the digital world.
+
+Sattva Cloud Angadi aims to preserve the connection between **objects, materials, makers, practices, and people**—while presenting that heritage through a modern digital experience.
+
+> **Discover the object. Understand its story. Connect with its heritage.**
+
+---
+
+<p align="center">
+  🌿 <strong>Sattva Cloud Angadi</strong><br>
+  <i>Where heritage becomes everyday.</i>
+</p>
